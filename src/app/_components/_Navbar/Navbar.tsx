@@ -73,8 +73,14 @@ const Navbar = () => {
             <li>
               <i className="fab fa-tiktok text-red-700"></i>
             </li>
-
-            <span className="text-red-700 hover:underline ">Logout</span>
+            <li>
+              
+              <span className="text-red-700 hover:underline ">تسجيل دخول</span>
+            </li>
+            <li>
+              
+              <span className="text-red-700 hover:underline ">خروج</span>
+            </li>
           </ul>
         </ul>
       </div>
