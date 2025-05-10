@@ -1,9 +1,9 @@
 // components/Slider.jsx
-'use client';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import {  Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 type Slide = {
   image: string;
@@ -12,19 +12,19 @@ type Slide = {
 
 const slides: Slide[] = [
   {
-    image: '/images/slider-image-1.jpeg',
-    alt: 'Slide 1',
+    image: "/images/slider-image-1.jpeg",
+    alt: "Slide 1",
   },
   {
-    image: '/images/slider-image-2.jpeg',
-    alt: 'Slide 2',
+    image: "/images/slider-image-2.jpeg",
+    alt: "Slide 2",
   },
   {
-    image: '/images/slider-image-3.jpeg',
-    alt: 'Slide 3',
+    image: "/images/slider-image-3.jpeg",
+    alt: "Slide 3",
   },
 ];
-export default function Slider(): JSX.Element {
+export default function Slider() {
   return (
     <Swiper
       modules={[Pagination, Autoplay]}
